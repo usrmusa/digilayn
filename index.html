@@ -1,18 +1,210 @@
 <!doctype html>
-<title>Site Maintenance</title>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Digilayn – Step in Digital</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<article>
-    <h1>We&rsquo;ll be back soon!</h1>
-    <div>
-        <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="https://wa.me/27815532209">WhatsApp us</a>, otherwise we&rsquo;ll be back online shortly!</p>
-        <p>&mdash; DigiLayn</p>
+    <!-- Developer Signature (invisible to users) -->
+    <meta name="developer" content="Musa Mgijima">
+    <meta name="author" content="Musa Mgijima (Digilayn Studio)">
+    <!-- Developed by Musa Mgijima | Digilayn Studio | 2025 -->
+
+    <!-- Basic SEO -->
+    <meta name="description"
+          content="Digilayn is a creative studio specialising in digital products and modern interior design. Site currently under maintenance.">
+    <meta name="copyright" content="© 2025 Digilayn. All rights reserved.">
+    <meta name="robots" content="index,follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Digilayn – Step in Digital">
+    <meta property="og:description"
+          content="We build digital products and modern interiors. The Digilayn site is currently under maintenance.">
+    <meta property="og:url" content="https://digilayn.co.za/">
+    <meta property="og:image" content="https://digilayn.co.za/logo.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Digilayn – Step in Digital">
+    <meta name="twitter:description"
+          content="Digital products & interior design. Site currently under maintenance.">
+    <meta name="twitter:image" content="https://digilayn.co.za/logo.jpg">
+
+    <!-- Brand color -->
+    <meta name="theme-color" content="#6ddf4f">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Digilayn",
+            "url": "https://digilayn.co.za",
+            "logo": "https://digilayn.co.za/logo.jpg",
+            "creator": {
+                "@type": "Person",
+                "name": "Musa Mgijima"
+            },
+            "contactPoint": [{
+                "@type": "ContactPoint",
+                "contactType": "customer service",
+                "telephone": "+27-81-553-2209",
+                "availableLanguage": ["en"]
+            }]
+        }
+    </script>
+
+    <style>
+        :root {
+          --digilayn-green: #6ddf4f;
+        }
+
+        body {
+          text-align: center;
+          padding: 120px 20px;
+          font: 18px Helvetica, sans-serif;
+          color: #333;
+          background: #f5f5f5;
+          margin: 0;
+          -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+
+        .container {
+          max-width: 650px;
+          margin: 0 auto;
+          background: #ffffff;
+          padding: 40px 30px;
+          border-radius: 12px;
+          box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+          position: relative;
+          overflow: hidden;
+        }
+
+        .logo-wrapper {
+          position: relative;
+          display: inline-block;
+          margin-bottom: 20px;
+        }
+
+        /* Invisible watermark overlay */
+        .logo-wrapper::after {
+          content: "DIGILAYN";
+          position: absolute;
+          inset: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 900;
+          letter-spacing: 0.3em;
+          font-size: 16px;
+          color: rgba(0, 0, 0, 0.04);
+          pointer-events: none;
+        }
+
+        img.logo {
+          width: 120px;
+          display: block;
+          -webkit-user-drag: none;
+          user-drag: none;
+          pointer-events: none;
+        }
+
+        h1 {
+          font-size: 42px;
+          margin-bottom: 10px;
+          color: #222;
+        }
+
+        p {
+          line-height: 1.6;
+          margin: 10px 0;
+        }
+
+        .tagline {
+          font-weight: bold;
+          color: var(--digilayn-green);
+          margin-bottom: 20px;
+          letter-spacing: 0.08em;
+        }
+
+        a {
+          color: var(--digilayn-green);
+          text-decoration: none;
+          font-weight: bold;
+        }
+
+        a:hover {
+          color: #333;
+        }
+
+        .footer {
+          margin-top: 30px;
+          font-size: 14px;
+          color: #555;
+        }
+
+        .copyright {
+          margin-top: 10px;
+          font-size: 12px;
+          color: #777;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="logo-wrapper">
+        <img id="dl-logo" class="logo" alt="Digilayn Logo">
     </div>
-</article>
+
+    <h1>We'll be back soon!</h1>
+
+    <p class="tagline">STEP IN DIGITAL</p>
+
+    <p>
+        We're busy upgrading the Digilayn experience.<br>
+        Our studio specialises in <strong>digital products</strong> &amp; <strong>modern interior design</strong>.
+    </p>
+
+    <p>
+        If you need assistance, feel free to
+        <a href="https://wa.me/27815532209">WhatsApp us</a> anytime.
+    </p>
+
+    <p class="footer">— Digilayn Studio</p>
+    <p class="copyright">© 2025 Digilayn. Logo and brand elements may not be used without written permission.</p>
+</div>
+
+<script>
+    // Signature in DevTools (visible only to developers)
+    console.log("%cDeveloped by Musa Mgijima – Digilayn Studio",
+                "color: #6ddf4f; font-size: 16px; font-weight: bold;");
+
+    // Mildly obfuscated logo path
+    (function() {
+      var encoded = "bG9nby5qcGc="; // base64 for "logo.jpg"
+      var logoPath = atob(encoded);
+      var img = document.getElementById("dl-logo");
+      if (img) img.src = logoPath;
+    })();
+
+    // Anti-casual-copy protections
+    document.addEventListener('contextmenu', e => e.preventDefault());
+    document.addEventListener('selectstart', e => e.preventDefault());
+    document.addEventListener('copy', e => e.preventDefault());
+    document.addEventListener('dragstart', e => e.preventDefault());
+
+    // Annoy long-press on mobile
+    document.addEventListener('touchstart', function (e) {
+      if (["IMG", "P", "H1", "DIV"].includes(e.target.tagName)) {
+        e.preventDefault();
+      }
+    }, { passive: false });
+</script>
+</body>
+</html>
