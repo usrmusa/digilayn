@@ -7,11 +7,17 @@
 
     <meta name="developer" content="Musa Mgijima">
     <meta name="author" content="Musa Mgijima (Digilayn Studio)">
-
     <meta name="description" content="Digilayn is a creative studio specialising in digital products and modern interior design. Partnership opportunities available.">
     <meta name="copyright" content="© 2025 Digilayn. All rights reserved.">
     <meta name="robots" content="index,follow">
     <meta name="theme-color" content="#6ddf4f">
+
+    <!-- ✅ FAVICONS -->
+    <link rel="icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
 
     <style>
         :root {
@@ -67,7 +73,6 @@
           text-transform: uppercase;
         }
 
-        /* Testing Section */
         .test-box {
             background: #f9f9f9;
             border: 1px solid #ddd;
@@ -118,7 +123,6 @@
             padding-left: 10px;
         }
 
-        /* Partnership Section */
         .pro-box {
             margin-top: 30px;
             padding: 25px;
@@ -165,7 +169,7 @@
         <span class="device-badge">ANDROID ONLY</span>
         <h3 style="margin-top:0;">Live Project Testing</h3>
         <p style="font-size: 15px; line-height: 1.5;">
-            Testers and partners are invited to try the latest <strong>LaynRider</strong> and <strong>LaynDriver</strong> builds. These are currently in pre-release development.
+            Testers and partners are invited to try the latest <strong>LaynRider</strong> and <strong>LaynDriver</strong> builds.
         </p>
 
         <div class="apk-links">
@@ -174,19 +178,19 @@
         </div>
 
         <div class="sideload-note">
-            <strong>Security Note:</strong> Since these apps are side-loaded (not yet on Play Store), Android will show a "Blocked by Play Protect" or "Unknown App" warning.
-            Click <strong>"Install Anyway"</strong> to proceed with testing.
+            <strong>Security Note:</strong> Since these apps are side-loaded, Android may warn you.
+            Click <strong>“Install Anyway”</strong> to proceed.
         </div>
     </div>
 
     <div class="pro-box">
         <h2>Digilayn Pro Partnership</h2>
-        <p style="font-size: 15px;">We build your digital infrastructure with <strong>Zero Upfront Fees</strong>. We succeed only when you succeed.</p>
+        <p>We build your digital infrastructure with <strong>Zero Upfront Fees</strong>.</p>
 
         <ul>
-            <li><strong>Revenue Share:</strong> Digilayn takes 5% of all earnings generated through Digilayn products.</li>
-            <li><strong>Ownership:</strong> Digilayn retains all source code, builds, and designs.</li>
-            <li><strong>Operating Costs:</strong> Clients are responsible for domain, hosting, and payment gateway fees.</li>
+            <li><strong>Revenue Share:</strong> 5% of earnings.</li>
+            <li><strong>Ownership:</strong> Digilayn retains all source code.</li>
+            <li><strong>Operating Costs:</strong> Client covers hosting & gateways.</li>
         </ul>
 
         <a href="Digilayn%20Partnership%20Agreement.pdf" class="btn-download" download>
@@ -205,15 +209,10 @@
 </div>
 
 <script>
-    console.log("%cDeveloped by Musa Mgijima – Digilayn Studio", "color: #6ddf4f; font-size: 16px; font-weight: bold;");
-
-    (function() {
-      var img = document.getElementById("dl-logo");
-      if (img) img.src = "logo.jpg";
-    })();
-
-    document.addEventListener('contextmenu', e => e.preventDefault());
-    document.addEventListener('copy', e => e.preventDefault());
+    console.log("%cDeveloped by Musa Mgijima – Digilayn Studio", "color:#6ddf4f;font-size:16px;font-weight:bold;");
+    document.getElementById("dl-logo").src = "logo.jpg";
+    document.addEventListener("contextmenu", e => e.preventDefault());
+    document.addEventListener("copy", e => e.preventDefault());
 </script>
 </body>
 </html>
