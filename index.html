@@ -12,7 +12,6 @@
     <meta name="robots" content="index,follow">
     <meta name="theme-color" content="#6ddf4f">
 
-    <!-- ✅ FAVICONS -->
     <link rel="icon" href="favicon/favicon.ico">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
     <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
@@ -73,13 +72,17 @@
           text-transform: uppercase;
         }
 
-        .test-box {
+        .test-box, .upcoming-box {
             background: #f9f9f9;
             border: 1px solid #ddd;
             border-radius: 8px;
             padding: 20px;
             margin: 30px 0;
             text-align: left;
+        }
+
+        .upcoming-box {
+            background: #ffffff;
         }
 
         .device-badge {
@@ -91,6 +94,36 @@
             font-size: 12px;
             font-weight: bold;
             margin-bottom: 10px;
+        }
+
+        .status-pill {
+            float: right;
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .project-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            background: #fafafa;
+            border-radius: 6px;
+            border: 1px solid #f0f0f0;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .project-link:hover {
+            border-color: var(--digilayn-green);
+            background: #fff;
+            transform: translateY(-2px);
         }
 
         .apk-links {
@@ -167,7 +200,7 @@
 
     <div class="test-box">
         <span class="device-badge">ANDROID ONLY</span>
-        <h3 style="margin-top:0;">Live Project Testing</h3>
+        <h3 style="margin-top:0;">Live App Testing</h3>
         <p style="font-size: 15px; line-height: 1.5;">
             Testers and partners are invited to try the latest <strong>LaynRider</strong> and <strong>LaynDriver</strong> builds.
         </p>
@@ -181,6 +214,21 @@
             <strong>Security Note:</strong> Since these apps are side-loaded, Android may warn you.
             Click <strong>“Install Anyway”</strong> to proceed.
         </div>
+    </div>
+
+    <div class="upcoming-box">
+        <h3 style="margin-top:0; font-size: 18px;">Upcoming Web Projects</h3>
+        <p style="font-size: 14px; color: #666; margin-bottom: 20px;">
+            We are currently building the following digital experiences. Click to view progress.
+        </p>
+
+        <a href="https://lastpassionclothing.co.za/" target="_blank" class="project-link">
+            <div>
+                <strong style="display: block; color: #222;">Last Passion Clothing</strong>
+                <span style="font-size: 12px; color: #888;">Modern E-commerce Store</span>
+            </div>
+            <span class="status-pill">In Development</span>
+        </a>
     </div>
 
     <div class="pro-box">
@@ -199,7 +247,7 @@
     </div>
 
     <p style="margin-top: 30px;">
-        Let's build together. <a href="https://wa.me/27815532209">WhatsApp Musa</a>
+        Let's build together. <a href="https://wa.me/27815532209">WhatsApp</a>
     </p>
 
     <p class="footer">Digital Products & Modern Interior Design</p>
